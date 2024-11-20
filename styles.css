@@ -1,0 +1,134 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: whitesmoke;
+}
+.subs-btn{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+}
+.list-group {
+    display: flex;
+margin-right: 1rem;
+    width: fit-content;
+  }
+  .nav-item {
+    padding: 0 0.5rem;
+    list-style: none;
+  }
+.navbar{
+    display: flex;
+justify-content: space-between;
+}
+.container{
+    background-color: black;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.main-img{
+    height: 80px;
+
+}
+.tagline{
+    color: grey;
+    font-size: 30px;
+}
+main{
+    padding: 2.5rem;
+}
+.getting-started{
+
+    display: flex;
+flex-wrap: wrap;
+
+}
+.getting-started-image{
+width: 60%;
+margin-right: 2rem;
+
+}
+.getting-started-text-div{
+    padding: 1.5rem 1.5rem 1.5rem 0rem;
+    width: 400px;
+
+}
+.secondary-text{
+    color: blue;
+    font-size: 30px
+}
+.heading-text{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.getting-started-text{
+    margin-top: 3rem;
+    font-size: 27px;
+    color: grey;
+}
+.thumbnail-container{
+    display: flex;
+    margin-top: 3rem;
+
+}
+.thumbnail{
+width: 35px;
+margin-right: 0.5rem;
+}
+
+    .thumbnail-text{
+
+        color: grey;
+        font-size: small;
+
+    }
+.divider{
+    border-top: 2px solid lightgray;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4{
+    width:  450px;
+margin-left: 1rem;
+margin-right: 0.5rem;
+}
+.img-top{
+    width: 100%;
+    border-radius: 1rem;
+}
+.secondary-card-text{
+    color: blue;
+    font-size:25px
+}
+.heading-card-text{
+    font-weight: bold;
+    font-size: 25px
+}
+.card-text{
+font-size: 20px;
+color: grey
+}
+.col-md-6{
+    width: 675px;
+    margin-left: 1rem;
+margin-right: 0.5rem;
+}
